@@ -18,7 +18,13 @@ body {
     
     font-size: 1.5rem;
     font-family: 'poppins', Arial, sans-serif;
-
     background-color: var(--color-background);
+    background-image: url('../img/fondo.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -50px -100px;
+    
     color: var(--color-black);
+
+    overflow: hidden;
 }
