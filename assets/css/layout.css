@@ -1,0 +1,26 @@
+/* --color-blue: #04B4E0;
+    --color-background: #EEF3F5;
+    --color-icon: #B5B6B7;
+    --color-subtitle: #888888;
+    --color-black: #222222;
+    --color-white: #FFFFFF;
+    --color-icon-white: #E6F7FB;
+ */
+
+.layout{
+    position: relative;
+    min-width: 1290px;
+    width: 75%;
+    height: 80vh;
+    min-height: 80vh;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-areas: "aside content";
+    grid-template-columns: 30% 70%;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    box-shadow: 0px -5px 100px rgba(0, 0, 0, 0.25);
+}

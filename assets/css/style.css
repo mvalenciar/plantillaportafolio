@@ -3,3 +3,6 @@
 
 /* GLOBAL CSS */
 @import url(global.css);
+
+/* ESTILOS LAYOUT */
+@import url(layout.css);
