@@ -1,0 +1,20 @@
+:root {
+    --color-blue: #04B4E0;
+    --color-background: #EEF3F5;
+    --color-icon: #B5B6B7;
+    --color-subtitle: #888888;
+    --color-black: #222222;
+    --color-white: #FFFFFF;
+    --color-icon-white: #E6F7FB;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'poppins', Arial, sans-serif;
+    background-color: var(--color-background);
+}
