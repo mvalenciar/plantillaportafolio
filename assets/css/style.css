@@ -1,8 +1,9 @@
-/* RESET CSS */
-@import url(normalize.css);
 
 /* GLOBAL CSS */
 @import url(global.css);
 
 /* ESTILOS LAYOUT */
 @import url(layout.css);
+
+/* ESTILOS ASIDE */
+@import url(aside.css);
