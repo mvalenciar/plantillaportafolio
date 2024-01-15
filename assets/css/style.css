@@ -7,3 +7,6 @@
 
 /* ESTILOS ASIDE */
 @import url(aside.css);
+
+/* ESTILOS CONTENIDO PRINCIPAL */
+@import url(layaout_content.css);

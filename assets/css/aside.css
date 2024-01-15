@@ -1,12 +1,3 @@
-/* --color-blue: #04B4E0;
-    --color-background: #EEF3F5;
-    --color-icon: #B5B6B7;
-    --color-subtitle: #888888;
-    --color-black: #222222;
-    --color-white: #FFFFFF;
-    --color-icon-white: #E6F7FB;
- */
-
 .layout__aside{
     grid-area: aside;
     border-radius: 4rem 0 0 4rem;
