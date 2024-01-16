@@ -1,31 +1,30 @@
 :root {
-    --color-blue: #04B4E0;
-    --color-background: #EEF3F5;
-    --color-icon: #B5B6B7;
-    --color-subtitle: #888888;
-    --color-black: #222222;
-    --color-white: #FFFFFF;
-    --color-icon-white: #E6F7FB;
+  --color-blue: #04b4e0;
+  --color-background: #eef3f5;
+  --color-icon: #b5b6b7;
+  --color-subtitle: #888888;
+  --color-black: #222222;
+  --color-white: #ffffff;
+  --color-icon-white: #e6f7fb;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    width: 100%;
-    height: auto;
-    
-    font-size: 1.5rem;
-    font-family: 'poppins', Arial, sans-serif;
-    background-color: var(--color-background);
-    background-image: url('../img/fondo.png') ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: -50px -100px;
-    
-    color: var(--color-black);
+  width: 100%;
+  height: auto;
 
-    overflow: hidden;
+  font-size: 1.5rem;
+  font-family: "poppins", Arial, sans-serif;
+  background-color: var(--color-background);
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px -100px;
+
+  color: var(--color-black);
+
+  overflow: hidden;
 }
-
