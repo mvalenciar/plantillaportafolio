@@ -12,3 +12,6 @@
 
 /* ESTILOS CONTENIDO PRINCIPAL */
 @import url(layaout_content.css);
+
+/* ESTILOS SOBRE MI */
+@import url(about.css);
