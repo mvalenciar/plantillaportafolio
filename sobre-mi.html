@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Milton Valencia</title>
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- LAYOUT PRINCIPAL -->
+    <div class="layout">
+      <!-- Barra lateral (info de usuario) -->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!-- Información general de usuario -->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/default-user.jpg"
+                alt="user-photo"
+                class="user-info__image"
+              />
+            </div>
+            <h2 class="user-info__name">Milton Valencia R</h2>
+            <h4 class="user-info__job">Desarrollador Web</h4>
+          </div>
+
+          <!-- Menu de navegación -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="estudios.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Estudios</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Redes sociales -->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Botón descargar hoja de vida -->
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn"> Descargar CV </a>
+          </div>
+
+          <!-- Pie de pagina -->
+          <footer class="user-info__footer">
+            &copy; 2024 Milton Valencia R
+          </footer>
+        </section>
+      </aside>
+
+      <!-- Contenido Principal -->
+
+      <main class="layout__content">
+        <section class="content__page content__about">
+          <!-- CONTENIDO SITIO WEB -->
+          <header class="about__header">
+            <h2 class="about__title">
+              Sobre <span class="title__color">Mi</span>
+            </h2>
+          </header>
+          <section class="about__personal-info">
+            <article class="personal-info__biography">
+              <p class="personal-info__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium odit iste ab natus dignissimos eos! Veritatis eum
+                culpa harum aspernatur distinctio quas veniam repellat
+                voluptates alias, aliquid consequatur optio facilis!
+              </p>
+            </article>
+            <div class="personal-info__data">
+              <ul class="personal-info__list">
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Edad</span>
+                  <span class="personal-info__value">31</span>
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__title">País</span>
+                  <span class="personal-info__value">Colombia</span>
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Dirección</span>
+                  <span class="personal-info__value"
+                    >Barrio San Nicolas, Puerto Asís, Putumayo</span
+                  >
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Correo</span>
+                  <span class="personal-info__value"
+                    >miltonalonsovalenciarincon@gmail.com</span
+                  >
+                </li>
+                <li class="personal-info__option">
+                  <span class="personal-info__title">Teléfono</span>
+                  <span class="personal-info__value">313 851 2640</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="about__services">
+            <header class="services__header">
+              <h3 class="services__title">
+                Lo que <span class="title__color">hago</span>
+              </h3>
+            </header>
+            <div class="services__container">
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Programación</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dicta accusamus illo. Rem, assumenda inventore
+                    sint quidem earum amet. Iusto ex nisi inventore ullam sunt
+                    fuga, labore quo dicta vel!
+                  </p>
+                </div>
+              </article>
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-chalkboard-teacher"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Formación</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dicta accusamus illo. Rem, assumenda inventore
+                    sint quidem earum amet. Iusto ex nisi inventore ullam sunt
+                    fuga, labore quo dicta vel!
+                  </p>
+                </div>
+              </article>
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-computer"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Desarrollo Web</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dicta accusamus illo. Rem, assumenda inventore
+                    sint quidem earum amet. Iusto ex nisi inventore ullam sunt
+                    fuga, labore quo dicta vel!
+                  </p>
+                </div>
+              </article>
+              <article class="services__service">
+                <div class="service__icon">
+                  <i class="fa-solid fa-terminal"></i>
+                </div>
+                <div class="service__content">
+                  <h4 class="service__title">Administración</h4>
+                  <p class="service__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dicta accusamus illo. Rem, assumenda inventore
+                    sint quidem earum amet. Iusto ex nisi inventore ullam sunt
+                    fuga, labore quo dicta vel!
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="about__reviews">
+            <header class="reviews__header">
+              <h3 class="reviews__title">Reseñas</h3>
+            </header>
+
+            <div class="reviews__container">
+              <article class="reviews__review">
+                <div class="review__image-container">
+                  <img
+                    class="review__image"
+                    src="assets/img/testimonio1.jpg"
+                    alt="review"
+                  />
+                </div>
+                <div class="review__description">
+                  <p class="review__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa obcaecati in illo, soluta quibusdam inventore unde
+                    laborum perspiciatis libero distinctio ipsa aspernatur,
+                    tempora cupiditate alias molestiae repudiandae voluptatum
+                    omnis aperiam.
+                  </p>
+                </div>
+                <div class="review__authour">
+                  <div class="review__authour-info">
+                    <h4 class="review__name">Ana Lopez</h4>
+                    <h5 class="review__company">Developers S.A</h5>
+                  </div>
+
+                  <div class="review__authour-icon">
+                    <i class="review__icon fa-solid fa-quote-right"></i>
+                  </div>
+                </div>
+              </article>
+
+              <article class="reviews__review">
+                <div class="review__image-container">
+                  <img
+                    class="review__image"
+                    src="assets/img/testimonio2.jpg"
+                    alt="review"
+                  />
+                </div>
+                <div class="review__description">
+                  <p class="review__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa obcaecati in illo, soluta quibusdam inventore unde
+                    laborum perspiciatis libero distinctio ipsa aspernatur,
+                    tempora cupiditate alias molestiae repudiandae voluptatum
+                    omnis aperiam.
+                  </p>
+                </div>
+                <div class="review__authour">
+                  <div class="review__authour-info">
+                    <h4 class="review__name">Ruben Martinez</h4>
+                    <h5 class="review__company">Full Stack SAS</h5>
+                  </div>
+
+                  <div class="review__authour-icon">
+                    <i class="review__icon fa-solid fa-quote-right"></i>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
