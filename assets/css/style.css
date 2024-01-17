@@ -1,6 +1,9 @@
 /* GLOBAL CSS */
 @import url(global.css);
 
+/* ESTILOS SCROLLBAR */
+@import url(scroll.css);
+
 /* ESTILOS LAYOUT */
 @import url(layout.css);
 
