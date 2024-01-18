@@ -46,7 +46,7 @@
 
 .menu__overlay {
   position: absolute;
-  right: 0px;
+  right: -35px;
   margin-top: -3.2rem;
   display: block;
   opacity: 0;
