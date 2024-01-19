@@ -77,35 +77,39 @@
   font-size: 1.5rem;
 }
 
-/* Estilos compartidos contenedores servicios, review, clientes */
+/* Estilos compartidos contenedores servicios, review, clientes, precios, extras */
 .about__services,
 .about__reviews,
 .about__clients,
-.about__prices {
+.about__prices,
+.about__extra {
   width: 100%;
   margin-bottom: 3rem;
 }
-/* Estilos compartidos header servicios, review, clientes */
+/* Estilos compartidos encabezados servicios, reviews, clientes, precios, extras */
 .services__header,
 .reviews__header,
 .clients__header,
-.prices__header {
+.prices__header,
+.extra__header {
   position: relative;
   display: inline-block;
   margin-bottom: 2.5rem;
 }
-/* Estilos títulos  servicios, review, clientes */
+/* Estilos títulos  servicios, review, clientes, precios, extras */
 .services__title,
 .reviews__title,
 .clients__title,
-.prices__title {
+.prices__title,
+.extra__title {
   font-size: 2.1rem;
 }
 
 .services__title::after,
 .reviews__title::after,
 .clients__title::after,
-.prices__title::after {
+.prices__title::after,
+.extra__title::after {
   content: "";
   position: absolute;
   top: 16px;
@@ -336,4 +340,51 @@
 .prices__reward {
   font-size: 1.4rem;
   opacity: 0.5;
+}
+
+/* INFORMACIÓN EXTRA */
+.extra__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.extra__info {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.extra__icon {
+  font-size: 2.8rem;
+  color: var(--color-blue);
+  opacity: 0.5;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+
+.extra__info:hover .extra__icon {
+  opacity: 1;
+}
+
+.extra__subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.extra__quantity {
+  font-size: 1.3rem;
+  color: var(--color-subtitle);
+  opacity: 0.5;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+
+.extra__info:hover .extra__quantity {
+  opacity: 1;
 }
