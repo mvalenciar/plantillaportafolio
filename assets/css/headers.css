@@ -1,0 +1,35 @@
+/* ESTILOS COMPARTIDOS ENCABEZADOS SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG, CONTACTO */
+
+.about__header,
+.resume__header {
+  display: inline-block;
+  margin-bottom: 4.5rem;
+}
+
+.about__title,
+.resume__title {
+  position: relative;
+  font-size: 3.2rem;
+}
+
+.title__color {
+  color: var(--color-blue);
+}
+
+.about__title::after,
+.resume__title::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -25px;
+  width: 50px;
+  height: 30px;
+  background-image: -webkit-repeating-radial-gradient(
+    center center,
+    var(--color-blue),
+    var(--color-blue) 1px,
+    transparent 0px,
+    transparent 100px
+  );
+  background-size: 6px 6px;
+}

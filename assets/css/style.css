@@ -16,5 +16,8 @@
 /* ESTILOS CONTENIDO PRINCIPAL */
 @import url(layaout_content.css);
 
+/* ESTILOS ENCABEZADOS (SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG Y CONTACTO) */
+@import url(headers.css);
+
 /* ESTILOS SOBRE MI */
 @import url(about.css);
