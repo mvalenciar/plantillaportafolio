@@ -47,46 +47,6 @@
   width: 100%;
   margin-bottom: 3rem;
 }
-/* Estilos compartidos encabezados servicios, reviews, clientes, precios, extras */
-.services__header,
-.reviews__header,
-.clients__header,
-.prices__header,
-.extra__header {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 2.5rem;
-}
-/* Estilos títulos  servicios, review, clientes, precios, extras */
-.services__title,
-.reviews__title,
-.clients__title,
-.prices__title,
-.extra__title {
-  font-size: 2.1rem;
-}
-
-.services__title::after,
-.reviews__title::after,
-.clients__title::after,
-.prices__title::after,
-.extra__title::after {
-  content: "";
-  position: absolute;
-  top: 16px;
-  right: -11.5px;
-  width: 30px;
-  height: 20px;
-  background-image: -webkit-repeating-radial-gradient(
-    center center,
-    var(--color-blue),
-    var(--color-blue) 1px,
-    transparent 0px,
-    transparent 100px
-  );
-  background-size: 6px 6px;
-  opacity: 0.5;
-}
 
 /* SESIÓN DE SERVICIOS */
 .services__container {

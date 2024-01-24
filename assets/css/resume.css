@@ -1,0 +1,17 @@
+.resume__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume__left {
+  background-color: #ff9d9d;
+  flex-basis: 55%;
+}
+
+.resume__right {
+  background-color: #a0ffdf;
+  flex-basis: 45%;
+  margin-left: 5px;
+}

@@ -19,5 +19,11 @@
 /* ESTILOS ENCABEZADOS (SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG Y CONTACTO) */
 @import url(headers.css);
 
+/* ESTILOS SUBENCABEZADOS (SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG Y CONTACTO) */
+@import url(subheader.css);
+
 /* ESTILOS SOBRE MI */
 @import url(about.css);
+
+/* ESTILOS CURRICULUM */
+@import url(resume.css);
