@@ -41,7 +41,8 @@
 /* ESTILOS COMPARTIDOS CONTENEDOR PRINCIPAL(SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG, CONTACTO) */
 
 .content__about,
-.content__resume {
+.content__resume,
+.content__portfolio {
   display: block;
   min-height: 100%;
   height: 100%;

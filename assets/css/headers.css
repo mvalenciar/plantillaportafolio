@@ -1,13 +1,15 @@
 /* ESTILOS COMPARTIDOS ENCABEZADOS SOBRE MI, CURRICULUM, PORTAFOLIO, BLOG, CONTACTO */
 
 .about__header,
-.resume__header {
+.resume__header,
+.portfolio__header {
   display: inline-block;
   margin-bottom: 4.5rem;
 }
 
 .about__title,
-.resume__title {
+.resume__title,
+.portfolio__title {
   position: relative;
   font-size: 3.2rem;
 }
@@ -17,7 +19,8 @@
 }
 
 .about__title::after,
-.resume__title::after {
+.resume__title::after,
+.portfolio__title::after {
   content: "";
   position: absolute;
   top: 20px;
