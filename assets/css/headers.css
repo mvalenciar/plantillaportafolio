@@ -2,14 +2,16 @@
 
 .about__header,
 .resume__header,
-.portfolio__header {
+.portfolio__header,
+.blog__header {
   display: inline-block;
   margin-bottom: 4.5rem;
 }
 
 .about__title,
 .resume__title,
-.portfolio__title {
+.portfolio__title,
+.blog__title {
   position: relative;
   font-size: 3.2rem;
 }
@@ -20,7 +22,8 @@
 
 .about__title::after,
 .resume__title::after,
-.portfolio__title::after {
+.portfolio__title::after,
+.blog__title::after {
   content: "";
   position: absolute;
   top: 20px;
