@@ -4,7 +4,8 @@
 .clients__subheader,
 .prices__subheader,
 .extra__subheader,
-.resume__subheader {
+.resume__subheader,
+.contact__form-header {
   position: relative;
   display: inline-block;
   margin-bottom: 2.5rem;
@@ -15,7 +16,8 @@
 .clients__title,
 .prices__title,
 .extra__title,
-.resume__subtitle {
+.resume__subtitle,
+.contact__subtitle {
   font-size: 2.1rem;
 }
 
@@ -28,7 +30,8 @@
 .clients__title::after,
 .prices__title::after,
 .extra__title::after,
-.resume__subtitle::after {
+.resume__subtitle::after,
+.contact__subtitle::after {
   content: "";
   position: absolute;
   top: 16px;
