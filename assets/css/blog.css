@@ -55,3 +55,25 @@
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
+.article__logo {
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+
+.article__icon {
+  position: absolute;
+  top: calc(50% - 2.2rem);
+  left: calc(50% - 2.2rem);
+  width: 4.4rem;
+  font-size: 4.4rem;
+  color: var(--color-white);
+}
+
+.article__top:hover .article__logo {
+  opacity: 1;
+}
