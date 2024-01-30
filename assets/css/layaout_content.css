@@ -43,7 +43,8 @@
 .content__about,
 .content__resume,
 .content__portfolio,
-.content__blog {
+.content__blog,
+.content__contact {
   display: block;
   min-height: 100%;
   height: 100%;
