@@ -156,7 +156,7 @@
                   ¿Como puedo <span class="subtitle__color">ayudarte?</span>
                 </h3>
               </header>
-              <form action="" class="contact__form">
+              <form action="" class="contact__form-input">
                 <div class="form__container">
                   <section class="form__left">
                     <div class="form__group">
@@ -164,8 +164,8 @@
                         type="text"
                         class="form__input"
                         name="name"
-                        required
                         placeholder="Nombre"
+                        required
                       />
                       <label for="name" class="form__label">Nombre</label>
                     </div>
@@ -174,8 +174,8 @@
                         type="email"
                         class="form__input"
                         name="email"
-                        required
                         placeholder="Email"
+                        required
                       />
                       <label for="email" class="form__label">Email</label>
                     </div>
@@ -184,8 +184,8 @@
                         type="text"
                         class="form__input"
                         name="subject"
-                        required
                         placeholder="Asunto"
+                        required
                       />
                       <label for="subject" class="form__label">Asunto</label>
                     </div>
@@ -194,18 +194,16 @@
                   <section class="form__right">
                     <div class="form__group">
                       <textarea
-                        class="form_input form_input--textarea"
+                        class="form__input form__input--textarea"
                         name="message"
-                        cols="30"
-                        rows="10"
+                        placeholder="Mensaje"
                         required
-                        placeholder="mensaje"
                       ></textarea>
+                      <label for="message" class="form__label">Mensaje</label>
                     </div>
                   </section>
-
-                  <input type="button" value="Enviar" class="form__button" />
                 </div>
+                <input type="button" value="Enviar" class="form__button" />
               </form>
             </section>
           </div>
