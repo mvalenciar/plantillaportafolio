@@ -4,6 +4,9 @@
 /* ESTILOS SCROLLBAR */
 @import url(scroll.css);
 
+/* ESTILOS LOADER CSS */
+@import url(loader.css);
+
 /* ESTILOS LAYOUT */
 @import url(layout.css);
 
