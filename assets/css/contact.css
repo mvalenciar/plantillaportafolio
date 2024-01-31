@@ -112,3 +112,28 @@
   width: 100%;
   min-height: 19.6rem;
 }
+
+.form__button {
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  border: 0.2rem solid var(--color-blue);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border-radius: 6rem;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+  box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+
+.form__button:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
